@@ -1,0 +1,45 @@
+html{ width: 100%;}
+.image--responsive {
+		width: 100%;
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+.logo {
+	display: block;
+    height: 100%;
+    width: 20%;
+}
+.logo::before {
+	content: "";
+	display: block;
+	background: center / contain no-repeat transparent;
+	background-image: url("../img/logo.svg");
+	height: 100%;
+}
+.logo>span {
+	display: none;
+}
+.page__header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 0 3rem;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu {
+    display: flex;
+    padding: 0.5rem 2rem;
+    margin: 0;
+    justify-content: space-around;
+    background-color: #F3F5F9;
+}
+.menu a {
+    color:black;
+}
