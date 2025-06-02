@@ -100,15 +100,17 @@
 }
 .points{
     display: flex;
+    gap: 4rem;
 }
 .point{
-    height:360px;
+    aspect-ratio: 1;
+    flex: 1;
     background-color: var(--secondary);
     position: relative;
 }
 .mon{
     color: var(--secondary-darky);
-    font-size: 400px;
+    font-size: 100%;
     font-weight: 800;
 
 }
