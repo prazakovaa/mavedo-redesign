@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style/main.css" rel="stylesheet">
-    <link href="./style/typography.css" rel="stylesheet">
     <link href="./style/normalize.css" rel="stylesheet">
+    <link href="./style/typography.css" rel="stylesheet">
+    <link href="./style/main.css" rel="stylesheet">
+
+
     <title>Mavedo</title>
 </head>
 <body>
 
     <header class="page__header">
-        <div class="page__header-top">
+        <div class="page__header--top">
             <a class="logo" href="./index.html"><span>logo Maveda</span></a>
             <div class="phone">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
                 <p>(+420) 602 202 876</p>
             </div>
         </div>
-		<nav class="page__header-menu">
+		<nav class="page__header--menu">
 			<menu class="menu">
 				<li> <a class="btn btn--menu btn--active" href="./index.html">Domů</a> </li>
 				<li> <a class="btn btn--menu" href="./">O nás</a> </li>
@@ -29,9 +31,10 @@
                 <li> <a class="btn btn--menu" href="./">Kariéra</a> </li>
 			</menu>
 		</nav>
-        <div class="page__header-main">
+        <div class="page__header--main">
             <h1>Účetnictví, mzdy a daně.</h1>
             <div class="text">
+                
                 <p>S čísly si tykáme a i ta vaše nás zajímají.</p>
                 <p>Pojďme se na ně společně podívat.</p>
             </div>
@@ -42,6 +45,7 @@
     <main class="page__content">
         <section class="quality">
             <h2>Proč si vybrat nás?</h2>
+            <div class="points">
             <div class="point">
                 <p class="mon">1</p>
                 <p class="lic">1</p>
@@ -66,6 +70,7 @@
                     <p>Jednotliví členové našeho týmu mají dostatek zkušeností s vedením účetnictví, dobře znají i fungování korporací v praxi.</p>
                 </div>
             </div>
+            </div>
             <div class="point point--big">
                 <p class="mon">4</p>
                 <p class="lic">4</p>
@@ -75,11 +80,11 @@
                     <p>Pomže vám zvládnout papíry - levně, spolehlivě a srozumitelně.</p>
                     <a href="#" class="btn">Kompletní ceník</a>
                 </div>
-                <img src="./img/service.avif" alt="Účetní vyřizující práci">
+                <img class="image-responsive" src="./img/service.avif" alt="Účetní vyřizující práci">
             </div>
         </section>
         <section class="article">
-            <img src="./img/article.avif" alt="Schůzka učetní se zakazníkem">
+            <img class="image-responsive" src="./img/article.avif" alt="Schůzka učetní se zakazníkem">
             <div class="article-text">
                 <h2>Povedeme vás světem čísel...</h2>
                 <p>Můžete nám doklady zasílát dle Vašich preferencí, a to poštou či elektronicky - nebo je můžete jednoduše nahrávat přímo do našeho účetního systému.</p>
